@@ -1,6 +1,6 @@
 # To-Do list #
 
-This to-do list will help us to set priorities and define future work.  
+This to-do list will help us to set priorities and define future work.
 
 ## Must Have ##
 
@@ -21,15 +21,15 @@ This to-do list will help us to set priorities and define future work.
 * Simple GUI for PMU.
 * Use *Network Time Protocol* for time measuring.
 * Refactor masks using binary literals for easier reading
-* `extended2int()` method should try to convert to bytes 
-* `set_phasor_num()`, `set_analog_num()`, `set_digital_num()` should be 
+* `extended2int()` method should try to convert to bytes
+* `set_phasor_num()`, `set_analog_num()`, `set_digital_num()` should be
 one method - easier for maintenance.
 * ~~`convert2frame()` should inherit methods from CommonFrame for decoding
- message.~~ 
+ message.~~
 * User defined analog units.
-* Handler for user defined commands (when custom command arrives 
+* Handler for user defined commands (when custom command arrives
 what to do).
-* Add delay offset parameter to adjust exact number of Data frames 
+* Add delay offset parameter to adjust exact number of Data frames
 per second.
 * Make only one module with both PMU and PDC functionality utilizing
 Queue as incoming and outgoing stack.
